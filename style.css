@@ -87,6 +87,13 @@ nav a {
     transition: all 0.3s ease-in-out;
     font-family: 'Montserrat', sans-serif;
 }
+nav a.active {
+    background-color: var(--primary-color);
+    color: var(--light-color); 
+    border-radius: 5px; 
+    padding: 5px 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
 nav a:hover {
     transform: scale(1.1);

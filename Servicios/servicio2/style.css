@@ -87,6 +87,13 @@ nav a:hover {
     color: orange;
     text-decoration: underline;
 }
+nav a.active {
+    background-color: var(--primary-color); 
+    color: var(--light-color); 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
 .dropdown {
     position: relative;
     display: inline-block;
